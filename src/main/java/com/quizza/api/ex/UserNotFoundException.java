@@ -1,0 +1,9 @@
+package com.quizza.api.ex;
+
+public class UserNotFoundException extends RuntimeException {
+    public UserNotFoundException(String message) {
+        super(message);
+    }
+
+
+}
